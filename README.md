@@ -5,6 +5,11 @@ speed test for api是一个使用ruby开发进行接口测试的框架，基于r
 
 test.rb是一个样例，可以对 https://github.com/redvoilin/blog 这个项目进行测试
 
+运行测试脚本
+    
+    cd "speed test for api"
+    ruby test.rb
+
 如果需要连接mysql，需要通过下面命令安装相应gem 
     
     gem install mysql2
